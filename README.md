@@ -1,30 +1,125 @@
 # WEBDEV-Part-One 
-# Adnil Kota Hub Website - HTML Foundation
+# Adnil Kota Hub Website - HTML Foundation & CSS Styling
 
 ## Project Overview
 **WEBDEV-PART-ONE**  
-This repository contains the HTML foundation for the official website of Adnil Kota Hub, a fast-food restaurant specializing in authentic South African kotas located in Bloemfontein CBD. This project represents Part 1 of a web development assignment focusing on semantic HTML5 structure.
+This repository contains the HTML foundation and CSS styling for the official website of Adnil Kota Hub, a fast-food restaurant specializing in authentic South African kotas located in Bloemfontein CBD. This project represents Part 2 of a web development assignment focusing on semantic HTML5 structure and responsive CSS design.
 
 ## Project Structure
-```
+
 WEBDEV-PART-ONE/
-├── images/                 # Directory for all visual assets
-│   ├── Kotaone.jpeg       # Hero image 1 - delicious kota closeup
-│   └── Kotatwo.jpeg       # Hero image 2 - additional kota showcase
-├── CHANGELOG.md           # Development history and changes
-├── index.html             # Main website page (homepage)
-├── LICENSE                # Project license information
-└── README.md              # Project documentation (this file)
-```
+├── images/ # Directory for all visual assets
+│ ├── Kotaone.jpeg # Hero image 1 - delicious kota closeup
+│ └── Kotatwo.jpeg # Hero image 2 - additional kota showcase
+├── styles/ # CSS styles directory
+│ └── style.css # Main stylesheet
+├── CHANGELOG.md # Development history and changes
+├── index.html # Main website page (homepage)
+├── LICENSE # Project license information
+└── README.md # Project documentation (this file)
+
+
+## Part 2: CSS Implementation
+
+### Design System
+- **Color Palette**: Green (#2E8B57), Dark Green (#1E6B47), Black (#1A1A1A), White (#FFFFFF)
+- **Typography**: Segoe UI font family with hierarchical scaling
+- **Layout**: CSS Flexbox and Grid for responsive design
+- **Theme**: Modern, minimalist with food-focused aesthetic
+
+### CSS Features Implemented
+- **External Stylesheet**: `styles/style.css` properly linked
+- **CSS Custom Properties**: Variables for consistent theming
+- **Responsive Design**: Mobile-first approach with media queries
+- **Typography System**: Hierarchical font sizing and spacing
+- **Layout Structure**: Flexbox for component layout
+- **Visual Styles**: Hover effects, shadows, and transitions
+- **Mobile Navigation**: Responsive navigation without JavaScript
+
+### Responsive Breakpoints
+- **Desktop**: 1200px+ (full navigation, side-by-side layouts)
+- **Tablet**: 768px (stacked layouts, adjusted typography)  
+- **Mobile**: 480px (single column, mobile-optimized navigation)
 
 ## Sitemap
-```
 Home Page (index.html)
 ├── Home Section (#home)
 ├── About Section (#about)
 ├── Menu Section (#menu)
 └── Contact Section (#contact)
-```
+
+
+## Browser Testing Results
+The website has been tested and works correctly on:
+- Chrome (latest version)
+- Firefox (latest version) 
+- Safari (latest version)
+- Edge (latest version)
+
+## Responsive Design Evidence
+*[Add your screenshots here showing desktop, tablet, and mobile views]*
+
+## Business Proposal Summary
+Adnil Kota Hub is a newly established restaurant at Louis Building, 80 Oliver Tambo Road, Bloemfontein. The website provides a professional online presence to showcase their kota offerings and attract customers.
+
+## Technical Implementation
+
+### HTML5 Features
+- Semantic elements (header, nav, main, section, footer)
+- Accessibility-focused markup
+- Proper document structure
+- Responsive meta tags
+
+### CSS3 Features
+- CSS Grid and Flexbox layouts
+- CSS Custom Properties (variables)
+- Advanced selectors and pseudo-classes
+- Media queries for responsive design
+- CSS transitions and transformations
+- Mobile-first responsive approach
+
+## Development Timeline
+- **Week 1-2**: HTML structure and semantic markup
+- **Week 3-4**: CSS styling and responsive design
+- **Week 5**: Testing and documentation
+- **Week 6**: Final review and submission
+
+## References
+
+### Academic References
+MDN Web Docs. (2023). *CSS Grid Layout*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed: 20 August 2025).
+
+MDN Web Docs. (2023). *CSS Flexible Box Layout*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout (Accessed: 20 August 2025).
+
+MDN Web Docs. (2023). *Using media queries*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries (Accessed: 20 August 2025).
+
+W3Schools. (2023). *CSS Responsive Web Design*. Refsnes Data. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 20 August 2025).
+
+### Business Content
+Swartbooi, S. (2025). *Adnil Kota Hub Business Proposal*. Unpublished business plan document.
+
+### Image Sources
+Adnil Kota Hub. (2025). *Product Photography - Kota Images*. Original photographs taken for business promotional use.
+
+### Design Inspiration
+Modern restaurant website design patterns based on industry best practices for food service businesses.
+
+## Future Enhancements
+- **Phase 3**: JavaScript functionality implementation
+- Online ordering system integration
+- Customer review system
+- Gallery expansion with more product images
+- Blog section for promotions and updates
+
+## Author
+**Sipho Swartbooi**  
+Web Development Student  
+Academic Assignment - HTML & CSS Implementation (Part 2 of 3)  
+Institution: The IIE  
+Date: August 2025
+
+## License
+See LICENSE file for detailed information about usage rights and permissions. All rights reserved Adnil Kota Hub 2025.
 
 ## Wireframes
 

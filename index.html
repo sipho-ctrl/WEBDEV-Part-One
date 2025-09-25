@@ -1,85 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Character encoding and viewport for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Page title that appears in browser tab -->
     <title>Adnil Kota Hub - Bloemfontein's Best Kota</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!-- Header section containing logo and navigation -->
+    <!-- Header & Navigation -->
     <header>
-        <!-- Main navigation menu -->
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Find Us</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h2>Adnil Kota Hub</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Find Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main content of the webpage -->
     <main>
-        <!-- Hero section - first visual area users see -->
-        <section id="home">
-            <h1>Welcome to Adnil Kota Hub</h1>
-            <!-- Hero image 1 - showcasing product -->
-            <img src="images/Kotaone.jpeg" alt="A close-up of a delicious Kota from Adnil Kota Hub" width="400">
-            <p>Bloemfontein's Home of the Perfect Kota</p>
-            <p>Affordable, delicious, and made with love.</p>
-            <!-- Hero image 2 - additional product showcase -->
-            <img src="images/Kotatwo.jpeg" alt="Another tasty Kota meal from our menu" width="400">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to Adnil Kota Hub</h1>
+                    <p class="tagline">Bloemfontein's Home of the Perfect Kota</p>
+                    <p class="description">Affordable, delicious, and made with love.</p>
+                    <div class="hero-images">
+                        <img src="images/Kotaone.jpeg" alt="A close-up of a delicious Kota from Adnil Kota Hub">
+                        <img src="images/Kotatwo.jpeg" alt="Another tasty Kota meal from our menu">
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- About section - business information -->
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Adnil Kota Hub is a newly established fast-food restaurant located in the heart of the Bloemfontein CBD. We specialize in creating the perfect Kota, a beloved South African street food, known for its incredible taste, affordability, and cultural significance.</p>
-            <p>Our mission is to deliver a delicious, satisfying, and authentic meal to every customer, from students looking for a quick bite to kota enthusiasts seeking the best in town.</p>
+        <!-- About Us Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <div class="about-content">
+                    <p>Adnil Kota Hub is a newly established fast-food restaurant located in the heart of the Bloemfontein CBD. We specialize in creating the perfect Kota, a beloved South African street food, known for its incredible taste, affordability, and cultural significance.</p>
+                    <p>Our mission is to deliver a delicious, satisfying, and authentic meal to every customer, from students looking for a quick bite to kota enthusiasts seeking the best in town.</p>
+                </div>
+            </div>
         </section>
 
-        <!-- Menu section - product offerings and prices -->
-        <section id="menu">
-            <h2>Our Menu</h2>
-            <p>All our kotas are made with fresh ingredients and packed with flavor. Come and taste the difference!</p>
-            
-            <h3>Kotas</h3>
-            <ul>
-                <li><strong>Student Kota (R20)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna</li>
-                <li><strong>Kasi Kota (R30)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham</li>
-                <li><strong>Private School Kota (R38)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham, Smoked Russian</li>
-                <li><strong>After School Bite Kota (R46)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham, Escort Russian</li>
-                <li><strong>Hoza Kota (R58)</strong>: Bread, Atchaar, French, Chips, Lettuce, Vienna, Egg, Ham, Escort Russian, Extra Cheese</li>
-                <li><strong>Mnandi Kota (R72)</strong>: Bread, Atchaar, French, Chips, Lettuce, Double Cheese, Vienna, Egg, Ham, Rib Patty, Long Thing Smoked Russian</li>
-                <li><strong>Kotara (R8)</strong>: Bread, Peanut Butter, Margarine</li>
-            </ul>
+        <!-- Menu Section -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Our Menu</h2>
+                <p class="menu-intro">All our kotas are made with fresh ingredients and packed with flavor. Come and taste the difference!</p>
+                
+                <div class="menu-category">
+                    <h3>Kotas</h3>
+                    <ul class="menu-items">
+                        <li><strong>Student Kota (R20)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna</li>
+                        <li><strong>Kasi Kota (R30)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham</li>
+                        <li><strong>Private School Kota (R38)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham, Smoked Russian</li>
+                        <li><strong>After School Bite Kota (R46)</strong>: Bread, Atchaar, French, Chips, Lettuce, Cheese, Vienna, Egg, Ham, Escort Russian</li>
+                        <li><strong>Hoza Kota (R58)</strong>: Bread, Atchaar, French, Chips, Lettuce, Vienna, Egg, Ham, Escort Russian, Extra Cheese</li>
+                        <li><strong>Mnandi Kota (R72)</strong>: Bread, Atchaar, French, Chips, Lettuce, Double Cheese, Vienna, Egg, Ham, Rib Patty, Long Thing Smoked Russian</li>
+                        <li><strong>Kotara (R8)</strong>: Bread, Peanut Butter, Margarine</li>
+                    </ul>
+                </div>
 
-            <h3>Chips</h3>
-            <p>We also serve delicious, crispy chips on their own!</p>
+                <div class="menu-category">
+                    <h3>Chips</h3>
+                    <p>We also serve delicious, crispy chips on their own!</p>
+                </div>
+            </div>
         </section>
 
-        <!-- Contact section - location and business hours -->
-        <section id="contact">
-            <h2>Find Us</h2>
-            <p>Come visit us at our location:</p>
-            <p><strong>Address:</strong> Louis Building, 80 Oliver Tambo Road, Bloemfontein CBD</p>
-            <h3>Operating Hours</h3>
-            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-            <p>Saturday: 9:00 AM - 3:00 PM</p>
-            <p>Sunday: Closed</p>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Find Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>Come visit us at our location:</p>
+                        <p class="address"><strong>Address:</strong> Louis Building, 80 Oliver Tambo Road, Bloemfontein CBD</p>
+                        
+                        <h3>Operating Hours</h3>
+                        <ul class="hours">
+                            <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                            <li>Saturday: 9:00 AM - 3:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <!-- Footer section - copyright and social media links -->
+    <!-- Footer -->
     <footer>
-        <p>Follow us on:
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a>
-        </p>
-        <p>&copy; 2025 Adnil Kota Hub. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>Follow us on:
+                    <a href="#" class="social-link">Facebook</a> |
+                    <a href="#" class="social-link">Instagram</a>
+                </p>
+                <p class="copyright">&copy; 2025 Adnil Kota Hub. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
