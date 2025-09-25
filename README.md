@@ -8,16 +8,18 @@ This repository contains the HTML foundation and CSS styling for the official we
 ## Project Structure
 
 WEBDEV-PART-ONE/
-├── images/ # Directory for all visual assets
-│ ├── Kotaone.jpeg # Hero image 1 - delicious kota closeup
-│ └── Kotatwo.jpeg # Hero image 2 - additional kota showcase
-├── styles/ # CSS styles directory
-│ └── style.css # Main stylesheet
-├── CHANGELOG.md # Development history and changes
-├── index.html # Main website page (homepage)
-├── LICENSE # Project license information
-└── README.md # Project documentation (this file)
-
+├── images/ # Product images
+│ ├── Kotaone.jpeg
+│ └── Kotatwo.jpeg
+├── styles/ # CSS stylesheets
+│ └── style.css
+├── desktop-view.png # Responsive design evidence
+├── tablet-view.png
+├── mobile-view.png
+├── CHANGELOG.md # Development history
+├── index.html # Main webpage
+├── LICENSE # Project license
+└── README.md # Documentation
 
 ## Part 2: CSS Implementation
 
@@ -36,11 +38,66 @@ WEBDEV-PART-ONE/
 - **Visual Styles**: Hover effects, shadows, and transitions
 - **Mobile Navigation**: Responsive navigation without JavaScript
 
-### Responsive Breakpoints
-- **Desktop**: 1200px+ (full navigation, side-by-side layouts)
-- **Tablet**: 768px (stacked layouts, adjusted typography)  
-- **Mobile**: 480px (single column, mobile-optimized navigation)
 
+## Responsive Design Evidence
+
+### Desktop View (1200px)
+![Desktop View](desktop-view.png)
+*Full navigation menu, side-by-side hero images, multi-column layout*
+
+### Tablet View (768px)  
+![Tablet View](tablet-view.png)
+*Stacked layout, adjusted spacing, optimized typography*
+
+### Mobile View (375px)
+![Mobile View](mobile-view.png)
+*Single column layout, mobile-optimized navigation, touch-friendly design*
+
+## Part 2: CSS Implementation Complete
+
+### ✅ Features Implemented
+- **External CSS Stylesheet**: Properly linked external styling
+- **Color Scheme**: Green/black/white theme matching brand identity
+- **Responsive Design**: Mobile-first approach with media queries
+- **Layout System**: CSS Flexbox for modern component layout
+- **Typography**: Hierarchical font scaling for readability
+- **Interactions**: Hover effects and smooth transitions
+- **Cross-browser Compatibility**: Tested on Edge, Chrome, Firefox
+
+### 📱 Responsive Breakpoints
+- **Desktop**: 1200px+ (full features)
+- **Tablet**: 768px (stacked layout)  
+- **Mobile**: 480px and below (mobile-optimized)
+
+## Technical Implementation
+
+The website demonstrates proficiency in:
+- Semantic HTML5 structure maintenance
+- CSS Grid and Flexbox layout techniques
+- CSS Custom Properties for consistent theming
+- Mobile-first responsive design principles
+- Accessibility-focused development practices
+
+## References
+
+MDN Web Docs. (2023). *CSS Grid Layout*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout (Accessed: 20 August 2025).
+
+MDN Web Docs. (2023). *CSS Flexible Box Layout*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout (Accessed: 20 August 2025).
+
+MDN Web Docs. (2023). *Using media queries*. Mozilla Foundation. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries (Accessed: 20 August 2025).
+
+W3Schools. (2023). *CSS Responsive Web Design*. Refsnes Data. Available at: https://www.w3schools.com/css/css_rwd_intro.asp (Accessed: 20 August 2025).
+
+## Author
+**Sipho Swartbooi**  
+Web Development Student  
+Academic Assignment - Part 2: CSS & Responsive Design  
+Institution: The IIE  
+Date: August 2025
+
+---
+
+*Part 2 completion: HTML structure enhanced with comprehensive CSS styling and responsive design implementation.*
 ## Sitemap
 Home Page (index.html)
 ├── Home Section (#home)
