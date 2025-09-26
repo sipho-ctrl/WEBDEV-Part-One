@@ -114,7 +114,7 @@ The website has been tested and works correctly on:
 - Edge (latest version)
 
 ## Responsive Design Evidence
-*[Add your screenshots here showing desktop, tablet, and mobile views]*
+
 
 ## Business Proposal Summary
 Adnil Kota Hub is a newly established restaurant at Louis Building, 80 Oliver Tambo Road, Bloemfontein. The website provides a professional online presence to showcase their kota offerings and attract customers.
