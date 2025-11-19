@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://sipho-ctrl.github.io/WEBDEV-Part-One/sitemap.xml
