@@ -416,6 +416,29 @@ textarea {
     margin-bottom: 1rem;
 }
 
+/* Map Styles */
+.map-container {
+    margin: 2rem 0;
+}
+
+.map-container h3 {
+    color: var(--primary-green);
+    margin-bottom: 1rem;
+}
+
+.map-placeholder {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    border: 2px dashed var(--primary-green);
+}
+
+.map-placeholder p {
+    margin-bottom: 0.5rem;
+}
+
 /* Responsive Design - Mobile First Approach */
 @media screen and (max-width: 768px) {
     .container {
@@ -502,6 +525,10 @@ textarea {
     form {
         padding: 1rem;
         margin: 0 0.5rem;
+    }
+    
+    .map-placeholder {
+        padding: 1rem;
     }
 }
 
